@@ -15,6 +15,6 @@ These steps require you to have a cluster running a supported version of Kuberne
 - export PATH=$PWD/bin:$PATH
 
 ## 2. Install Istio
-### For this installation, we use the demo configuration profile. It’s selected to have a good set of defaults for testing, but there are other profiles for production or performance testing.
+ For this installation, we use the demo configuration profile. It’s selected to have a good set of defaults for testing, but there are other profiles for production or performance testing.
 - istioctl install --set profile=demo -y
 
