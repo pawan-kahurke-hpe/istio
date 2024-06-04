@@ -9,3 +9,6 @@ These steps require you to have a cluster running a supported version of Kuberne
 - View the dashboard
 
 # 1. Download Istio
+curl -L https://istio.io/downloadIstio | sh -
+cd istio-1.22.0
+## Add the istioctl client to your path
