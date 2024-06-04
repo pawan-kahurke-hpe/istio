@@ -9,6 +9,12 @@ These steps require you to have a cluster running a supported version of Kuberne
 - View the dashboard
 
 ## 1. Download Istio
-curl -L https://istio.io/downloadIstio | sh -
+- curl -L https://istio.io/downloadIstio | sh -
 - cd istio-1.22.0
 ## Add the istioctl client to your path
+- export PATH=$PWD/bin:$PATH
+
+## 2. Install Istio
+### For this installation, we use the demo configuration profile. It’s selected to have a good set of defaults for testing, but there are other profiles for production or performance testing.
+- istioctl install --set profile=demo -y
+
