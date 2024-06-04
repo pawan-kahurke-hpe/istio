@@ -21,7 +21,7 @@ These steps require you to have a cluster running a supported version of Kuberne
 - kubectl label namespace default istio-injection=enabled
   
 ## 3. Deploy the sample application
-Deploy the Bookinfo sample application:
+Deploy the Bookinfo sample application
 - kubectl apply -f samples/bookinfo/platform/kube/bookinfo.yaml
 The application will start. As each pod becomes ready, the Istio sidecar will be deployed along with it.
 - kubectl get svc
